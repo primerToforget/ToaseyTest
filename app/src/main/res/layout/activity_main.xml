@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.zxl.toastytest.MainActivity">
+
+    <Button
+        android:id="@+id/buttonToast1"
+        android:text="@string/normal_toast_with_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/buttonToast2"
+        android:text="@string/normal_toast_without_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/buttonToast3"
+        android:text="@string/error_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast1" />
+
+    <Button
+        android:id="@+id/buttonToast4"
+        android:text="@string/success_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast2"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/buttonToast5"
+        android:text="@string/warning_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast3"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/buttonToast6"
+        android:text="@string/info_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast4"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/buttonToast7"
+        android:text="@string/info_toast_with_formatting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast5"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/buttonToast8"
+        android:text="@string/custom_configuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast6"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/buttonToast9"
+        android:text="TOAST 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast7"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/buttonToast10"
+        android:text="TOAST 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast8"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/buttonToast11"
+        android:text="TOAST 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast9"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/buttonToast12"
+        android:text="TOAST 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast10"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/buttonToast13"
+        android:text="TOAST 5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast11"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/buttonToast14"
+        android:text="TOAST 6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast12"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

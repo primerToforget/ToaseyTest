@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToastyTest</string>
+    <string name="normal_toast_with_icon">普通TOAST (带图标)</string>
+    <string name="normal_toast_without_icon">普通TOAST (不带图标)</string>
+    <string name="warning_toast">危险信息 TOAST</string>
+    <string name="info_toast">信息 TOAST</string>
+    <string name="info_toast_with_formatting">格式化信息 TOAST</string>
+    <string name="error_toast">错误 TOAST</string>
+    <string name="success_toast">成功 TOAST</string>
+    <string name="custom_configuration">自定义 TOAST</string>
+</resources>
